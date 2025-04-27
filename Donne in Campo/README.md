@@ -1,0 +1,2 @@
+This project has been developed for CIA Liguria, in particular for the 'Donne in Campo'. The presentation is available at the following link: https://public.tableau.com/views/DonneinCampoCIALiguria/Storia1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+The main goal was to use the presentation to provide a brief overview of the historical and geographical presence of women in agriculture within the Liguria region.

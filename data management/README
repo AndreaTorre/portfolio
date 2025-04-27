@@ -1,0 +1,1 @@
+In this project, an SQL database was created to collect data from the music world, enabling an analysis of "hits" and what makes them successful. Data was obtained using various techniques: Spotify API, web scraping for lyrics, and downloading features of songs from Kaggle.

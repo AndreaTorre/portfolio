@@ -1,2 +1,2 @@
-The thesis is a mulitvariate analysis of the climate change's causes and effects. 
-The work has been carried out on Rstudio using datas from multiple sources.
+The thesis work focus on the study of the causes and the consequences of the climate change. 
+This subject has been analyzed in Rstudio by using multivariate descriptive techniques, from dimentionality reduction to time series analysis.

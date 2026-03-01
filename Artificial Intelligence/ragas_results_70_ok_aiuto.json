@@ -1,0 +1,1292 @@
+[
+  {
+    "Question": "Quali prove vennero considerate a carico del Picciafuoco nel primo processo d'appello?",
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1": 0.7272727272727272,
+    "faithfulness": 1.0,
+    "tp": 4,
+    "fp": 2,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il Picciafuoco ha un passato di ex detenuto comune.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il passato del Picciafuoco include il suo essere un ex detenuto comune, politicizzato e affiliato a TP."
+        },
+        {
+          "statement": "Il Picciafuoco si è avvicinato a gruppi di estrema destra.",
+          "verdict": 0,
+          "reason": "Il contesto menziona che il Picciafuoco è stato affiliato a TP e il suo nome è stato trovato in un elenco di detenuti di destra, ma non esplicitamente che si è avvicinato a gruppi di estrema destra."
+        },
+        {
+          "statement": "Il Picciafuoco ha fatto dichiarazioni contraddittorie sulla sua presenza alla stazione di Bologna il giorno della strage.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che le dichiarazioni del Picciafuoco riguardo alla sua presenza alla stazione di Bologna il giorno della strage sono state contraddittorie."
+        },
+        {
+          "statement": "Il nome del Picciafuoco è stato trovato in un elenco di detenuti di destra.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il nome del Picciafuoco è stato trovato in un elenco di detenuti di destra sequestrato a Cavallini."
+        },
+        {
+          "statement": "Il Picciafuoco era presente alla stazione ferroviaria di Bologna al momento dell'esplosione.",
+          "verdict": 0,
+          "reason": "Il contesto non fornisce informazioni dirette sulla presenza del Picciafuoco alla stazione ferroviaria di Bologna al momento dell'esplosione, ma solo che ha fatto dichiarazioni contraddittorie al riguardo."
+        },
+        {
+          "statement": "Il Picciafuoco ha legami con ambienti della destra eversiva.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il Picciafuoco è stato affiliato a TP e il suo nome è stato trovato in un elenco di detenuti di destra, il che suggerisce legami con ambienti di estrema destra."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il Picciafuoco aveva un passato di ex detenuto comune.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il Picciafuoco aveva un passato di ex detenuto comune."
+        },
+        {
+          "statement": "Il Picciafuoco era politicizzato e affiliato a TP.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il Picciafuoco era stato politicizzato e si era avvicinato a gruppi di estrema destra (TP)."
+        },
+        {
+          "statement": "Il Picciafuoco fece dichiarazioni contraddittorie sulla sua presenza alla stazione di Bologna il giorno della strage.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il Picciafuoco fece dichiarazioni contraddittorie sulla sua presenza alla stazione di Bologna il giorno della strage."
+        },
+        {
+          "statement": "Il nome del Picciafuoco era in un elenco di detenuti di destra sequestrato a Cavallini.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che l'inserimento del suo nome in un elenco di detenuti di destra sequestrato a Cavallini era una delle prove considerate."
+        },
+        {
+          "statement": "Il Picciafuoco proferì numerose menzogne.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona esplicitamente che il Picciafuoco proferì numerose menzogne, anche se menziona dichiarazioni contraddittorie."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il Picciafuoco ha un passato di ex detenuto comune.",
+        "verdict": 1,
+        "reason": "Il contesto menziona che il PICCIAFUOCO ha un passato di ex detenuto comune."
+      },
+      {
+        "statement": "Il Picciafuoco si è avvicinato a gruppi di estrema destra.",
+        "verdict": 1,
+        "reason": "Il testo menziona che Picciafuoco è collegato ad ambienti della destra eversiva."
+      },
+      {
+        "statement": "Il Picciafuoco ha fatto dichiarazioni contraddittorie sulla sua presenza alla stazione di Bologna il giorno della strage.",
+        "verdict": 1,
+        "reason": "Il contesto menziona che il PICCIAFUOCO ha fatto dichiarazioni contraddittorie circa la sua presenza alla stazione di Bologna il giorno della strage."
+      },
+      {
+        "statement": "Il nome del Picciafuoco è stato trovato in un elenco di detenuti di destra.",
+        "verdict": 1,
+        "reason": "Il contesto menziona che il nome del PICCIAFUOCO è stato inserito in un elenco di detenuti di destra sequestrato a CAVALLINI."
+      },
+      {
+        "statement": "Il Picciafuoco era presente alla stazione ferroviaria di Bologna al momento dell'esplosione.",
+        "verdict": 1,
+        "reason": "Il testo afferma che Picciafuoco era presente alla stazione ferroviaria di Bologna al momento dello scoppio dell'ordigno esplosivo."
+      },
+      {
+        "statement": "Il Picciafuoco ha legami con ambienti della destra eversiva.",
+        "verdict": 1,
+        "reason": "Il testo menziona che Picciafuoco è collegato ad ambienti della destra eversiva."
+      }
+    ]
+  },
+  {
+    "Question": "Con quale formula veniva assolto il Rinani dal delitto di strage nel 1990?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 1.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il Rinani veniva assolto dal delitto di strage con formula piena.",
+          "verdict": 0,
+          "reason": "Il testo afferma che Il Rinani veniva assolto con la formula del dubbio, non con formula piena."
+        },
+        {
+          "statement": "La sentenza iniziale di assoluzione con formula del dubbio venne successivamente riformata.",
+          "verdict": 0,
+          "reason": "Non c'è informazione nel testo che indichi che la sentenza sia stata successivamente riformata."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il Rinani veniva assolto dal delitto di strage.",
+          "verdict": 1,
+          "reason": "Il testo afferma che Il Rinani veniva assolto dal delitto di strage con formula piena."
+        },
+        {
+          "statement": "Il Rinani veniva assolto da quelli connessi al delitto di strage.",
+          "verdict": 0,
+          "reason": "Il testo non menziona esplicitamente che Il Rinani veniva assolto da quelli connessi al delitto di strage."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il Rinani veniva assolto dal delitto di strage con formula piena.",
+        "verdict": 1,
+        "reason": "Il testo afferma che l'assoluzione del RINANI dal delitto di strage deve tradursi in assoluzione con formula piena."
+      },
+      {
+        "statement": "La sentenza iniziale di assoluzione con formula del dubbio venne successivamente riformata.",
+        "verdict": 1,
+        "reason": "Il testo menziona che l'assoluzione con la formula del dubbio del RINANI deve tradursi in assoluzione con formula piena, implicando una riforma della sentenza iniziale."
+      }
+    ]
+  },
+  {
+    "Question": "Chi viene condannato in ordine al delitto di banda armata nel secondo grado di giudizio?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 1.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 4,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Valerio Fioravanti, Francesca Mambro, Gilberto Cavallini e Massimiliano Giuliani sono stati condannati.",
+          "verdict": 0,
+          "reason": "Il contesto menziona che il Fioravanti, la Mambro e il Giuliani sono stati condannati, ma non menziona Gilberto Cavallini."
+        },
+        {
+          "statement": "I quattro imputati sono stati condannati per il delitto di banda armata.",
+          "verdict": 0,
+          "reason": "Il contesto menziona sette imputati condannati per il delitto di banda armata, non quattro."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Fachini fu condannato per il delitto di banda armata.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona Fachini come uno degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Signorelli fu condannato per il delitto di banda armata.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona Signorelli come uno degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Fioravanti fu condannato per il delitto di banda armata.",
+          "verdict": 1,
+          "reason": "Il contesto menziona Valerio Fioravanti come uno degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Mambro fu condannata per il delitto di banda armata.",
+          "verdict": 1,
+          "reason": "Il contesto menziona Francesca Mambro come una degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Giuliani fu condannato per il delitto di banda armata.",
+          "verdict": 1,
+          "reason": "Il contesto menziona Massimiliano Giuliani come uno degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Rinani fu condannato per il delitto di banda armata.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona Rinani come uno degli imputati condannati per il delitto di banda armata."
+        },
+        {
+          "statement": "Picciafuoco fu condannato per il delitto di banda armata.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona Picciafuoco come uno degli imputati condannati per il delitto di banda armata."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Valerio Fioravanti, Francesca Mambro, Gilberto Cavallini e Massimiliano Giuliani sono stati condannati.",
+        "verdict": 1,
+        "reason": "Il testo menziona i nomi FIORAVANTI, MAMBRO, CAVALLINI e GIULIANI come condannati, anche se non sono specificati i nomi \"Valerio\" e \"Massimiliano\" e \"Francesca\" e \"Gilberto\", ma si può inferire che si tratti delle stesse persone."
+      },
+      {
+        "statement": "I quattro imputati sono stati condannati per il delitto di banda armata.",
+        "verdict": 1,
+        "reason": "Il testo menziona che i quattro (FIORAVANTI, MAMBRO, CAVALLINI e GIULIANI) sono stati condannati al risarcimento dei danni \"limitatamente al delitto di banda armata\"."
+      }
+    ]
+  },
+  {
+    "Question": "Per quale motivo viene riproposta l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli dalla corte di Assise?",
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "faithfulness": 0.6666666666666666,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "La corte di Assise ripropone l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli.",
+          "verdict": 1,
+          "reason": "La corte di Assise ripropone l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli perché era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio, quindi è presente nel contesto."
+        },
+        {
+          "statement": "Gelli era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che Gelli era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio."
+        },
+        {
+          "statement": "La regola di specialità dell'estradizione prevede che Gelli non può essere processato per reati diversi da quelli per i quali è stato estradato.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona la regola di specialità dell'estradizione, ma solo che Gelli era stato estradato per reati diversi."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La corte di Assise ripropone l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli.",
+          "verdict": 1,
+          "reason": "La frase è presente nel contesto come azione intrapresa dalla corte di Assise."
+        },
+        {
+          "statement": "Gelli era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che Gelli era stato estradato per reati diversi da quelli oggetto del giudizio in corso."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "La corte di Assise ripropone l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli.",
+        "verdict": 0,
+        "reason": [
+          "Il testo menziona che l'improcedibilità dell'azione penale nei confronti di Gelli è stata eccepita in primo grado e nuovamente dedotta con l'impugnazione della sentenza, ma non specifica che la corte di Assise ripropone l'eccezione.",
+          "Il testo menziona che \\\"Veniva innanzitutto riproposta la eccezione di improcedibilità della azione penale per il fatto che il GELLI era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio\\\", ma non specifica che la corte di Assise ripropone l'eccezione.",
+          "Il contesto non menziona la corte di Assise che ripropone l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli.",
+          "Il contesto non menziona la corte di Assise o l'eccezione di improcedibilità dell'azione penale nei confronti di Gelli.",
+          "Il contesto menziona l'improcedibilità della azione penale nei confronti del CAVALLINI, non di Gelli."
+        ]
+      },
+      {
+        "statement": "Gelli era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio.",
+        "verdict": 1,
+        "reason": "Il testo afferma che \\\"Veniva innanzitutto riproposta la eccezione di improcedibilità della azione penale per il fatto che il GELLI era stato estradato in Italia per reati diversi da quelli oggetto del presente giudizio\\\", quindi la dichiarazione è vera."
+      },
+      {
+        "statement": "La regola di specialità dell'estradizione prevede che Gelli non può essere processato per reati diversi da quelli per i quali è stato estradato.",
+        "verdict": 1,
+        "reason": "Il testo menziona la regola di specialità dell'estradizione stabilita dall'art.14 della Convenzione europea di estradizione, che prevede questa limitazione."
+      }
+    ]
+  },
+  {
+    "Question": "Con quali motivazioni viene considerata palesemente infondata l'eccezione di nullità degli atti processuali a causa dell'uso del computer nel primo processo d'appello?",
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1": 0.5714285714285715,
+    "faithfulness": 1.0,
+    "tp": 2,
+    "fp": 2,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "L'eccezione di nullità degli atti processuali a causa dell'uso del computer nel primo processo d'appello è considerata infondata.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che l'eccezione di nullità degli atti processuali dovuta all'uso del computer nel primo processo d'appello è ritenuta infondata."
+        },
+        {
+          "statement": "L'uso del computer per la stampa meccanografica di atti processuali è equivalente alla confezione dattilografica di essi.",
+          "verdict": 0,
+          "reason": "Il contesto spiega che l'uso del computer per la stampa meccanografica degli atti è stato confuso con l'elaborazione dei dati, quindi non è equivalente."
+        },
+        {
+          "statement": "Il computer non sostituisce l'attività richiesta dalla legge per la formazione dell'atto processuale.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che l'uso del computer per ottenere la stampa immediata del testo già formulato non sostituisce l'attività richiesta dalla legge."
+        },
+        {
+          "statement": "Il cancelliere ha utilizzato il computer solo per memorizzare e stampare l'atto processuale già formato.",
+          "verdict": 0,
+          "reason": "Il contesto non fornisce informazioni specifiche sull'uso del computer da parte del cancelliere per memorizzare e stampare l'atto processuale già formato."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "L'eccezione di nullità degli atti processuali dovuta all'uso del computer nel primo processo d'appello è ritenuta infondata.",
+          "verdict": 1,
+          "reason": "Il testo afferma che l'eccezione di nullità degli atti processuali a causa dell'uso del computer nel primo processo d'appello è considerata palesemente infondata."
+        },
+        {
+          "statement": "L'uso del computer per la stampa meccanografica degli atti non è lo stesso dell'elaborazione dei dati.",
+          "verdict": 1,
+          "reason": "Il testo specifica che l'uso del computer per la stampa meccanografica di atti processuali è equivalente alla confezione dattilografica di essi e non sostituisce l'attività richiesta dalla legge per la formazione dell'atto processuale."
+        },
+        {
+          "statement": "La legge non impone la scrittura manuale a pena di nullità per la stesura dei processi verbali.",
+          "verdict": 0,
+          "reason": "Il testo non menziona esplicitamente che la legge non impone la scrittura manuale a pena di nullità per la stesura dei processi verbali, ma si concentra sull'uso del computer per la stampa meccanografica."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "L'eccezione di nullità degli atti processuali a causa dell'uso del computer nel primo processo d'appello è considerata infondata.",
+        "verdict": 1,
+        "reason": "Il testo afferma che l'eccezione di nullità degli atti processuali a causa dell'uso del computer è \"palesemente infondata\"."
+      },
+      {
+        "statement": "L'uso del computer per la stampa meccanografica di atti processuali è equivalente alla confezione dattilografica di essi.",
+        "verdict": 1,
+        "reason": "Il testo menziona che l'uso dell'apparato computeristico per la stampa meccanografica di atti processuali è considerato equivalente alla confezione dattilografica di essi."
+      },
+      {
+        "statement": "Il computer non sostituisce l'attività richiesta dalla legge per la formazione dell'atto processuale.",
+        "verdict": 1,
+        "reason": "Il testo afferma che \"Altro è invero utilizzare il mezzo informatico... in funzione sostitutiva dell'attività dalla legge richiesta per la formazione dell'atto processuale\", indicando che il computer non sostituisce l'attività richiesta."
+      },
+      {
+        "statement": "Il cancelliere ha utilizzato il computer solo per memorizzare e stampare l'atto processuale già formato.",
+        "verdict": 1,
+        "reason": "Il testo menziona che \"Il cancelliere... si è soltanto servito di dette apparecchiature... per ottenerne la stampa immediata\", confermando l'uso del computer per memorizzare e stampare l'atto processuale già formato."
+      }
+    ]
+  },
+  {
+    "Question": "Quali sono le motivazioni del ricorso per Cassazione eccepiti dal procuratore Squadrini rispetto alla sentenza di appello per Musumeci e Belmonte?",
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "faithfulness": 0.25,
+    "tp": 1,
+    "fp": 3,
+    "fn": 3,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il procuratore Squadrini ha presentato un ricorso per Cassazione contro la sentenza di appello per Musumeci e Belmonte.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il procuratore Squadrini ha eccepito il ricorso per Cassazione rispetto alla sentenza di appello per Musumeci e Belmonte, il che implica che abbia presentato un ricorso."
+        },
+        {
+          "statement": "Il procuratore chiede che la Corte di Cassazione annulli la sentenza di appello e rinvii il processo per una nuova valutazione delle prove.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona esplicitamente che il procuratore chieda l'annullamento della sentenza di appello e il rinvio del processo per una nuova valutazione delle prove."
+        },
+        {
+          "statement": "Il procuratore Squadrini sostiene che la sentenza di appello sia errata nella sua valutazione delle prove.",
+          "verdict": 0,
+          "reason": "Il contesto afferma che il procuratore Squadrini ha eccepito il ricorso per Cassazione, il che implica che sostenga che la sentenza di appello contenga errori, ma non specifica che tali errori siano nella valutazione delle prove."
+        },
+        {
+          "statement": "Il procuratore chiede che la Corte di Cassazione esamini nuovamente le prove e condanni gli imputati.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona che il procuratore chieda alla Corte di Cassazione di esaminare nuovamente le prove e condannare gli imputati."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il procuratore Squadrini ha eccepito il ricorso per Cassazione rispetto alla sentenza di appello per Musumeci e Belmonte.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il procuratore Squadrini ha presentato un ricorso per Cassazione contro la sentenza di appello per Musumeci e Belmonte."
+        },
+        {
+          "statement": "Il Giudice di Appello ha escluso l'aggravante prevista dall'art. 1 della Legge 6 febbraio 1980 n. 15 per il delitto di calunnia.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona il Giudice di Appello che esclude l'aggravante prevista dall'art. 1 della Legge 6 febbraio 1980 n. 15 per il delitto di calunnia."
+        },
+        {
+          "statement": "Il giudice ha applicato il condono previsto dal D.P.R. con una pena di tre anni di reclusione.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona il giudice che applica il condono previsto dal D.P.R. con una pena di tre anni di reclusione."
+        },
+        {
+          "statement": "L'art. 8 lett. e) del decreto di clemenza esclude la possibilità di applicare il condono per i reati aggravati dalla finalità di eversione dell'ordine democratico.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona l'art. 8 lett. e) del decreto di clemenza, ma menziona il delitto di cui all'art. 270 bis C.P. (associazione eversiva)."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il procuratore Squadrini ha presentato un ricorso per Cassazione contro la sentenza di appello per Musumeci e Belmonte.",
+        "verdict": 0,
+        "reason": [
+          "Il testo menziona che il procuratore chiede l'annullamento della sentenza, ma non menziona specificamente Musumeci e Belmonte come oggetto del ricorso.",
+          "Il testo non menziona il procuratore Squadrini, ma solo il Procuratore Generale della Repubblica, e non menziona Musumeci e Belmonte.",
+          "Il testo menziona il Procuratore Generale della Repubblica, ma non specifica il nome \"Squadrini\" e menziona i nomi di Musumeci e Belmonte come assolti."
+        ]
+      },
+      {
+        "statement": "Il procuratore chiede che la Corte di Cassazione annulli la sentenza di appello e rinvii il processo per una nuova valutazione delle prove.",
+        "verdict": 1,
+        "reason": "Il testo menziona che il procuratore chiede l'annullamento della sentenza con rinvio, il che implica una nuova valutazione."
+      },
+      {
+        "statement": "Il procuratore Squadrini sostiene che la sentenza di appello sia errata nella sua valutazione delle prove.",
+        "verdict": 0,
+        "reason": [
+          "Il testo non menziona esplicitamente che il procuratore sostenga l'errata valutazione delle prove da parte della sentenza di appello.",
+          "Il testo non menziona il procuratore Squadrini e non esprime un'opinione sulla sentenza di appello.",
+          "Il testo non menziona il nome \"Squadrini\" e non specifica che il procuratore sostenga che la sentenza di appello sia errata."
+        ]
+      },
+      {
+        "statement": "Il procuratore chiede che la Corte di Cassazione esamini nuovamente le prove e condanni gli imputati.",
+        "verdict": 0,
+        "reason": [
+          "Il testo menziona che il procuratore chiede l'annullamento della sentenza con rinvio, ma non menziona specificamente la richiesta di condanna degli imputati.",
+          "Il testo menziona che il Procuratore Generale della Repubblica propone un ricorso per Cassazione, ma non specifica che chiede la condanna degli imputati.",
+          "Il testo menziona che il Procuratore Generale deduce motivi a sostegno della dichiarazione del ricorso per Cassazione, ma non specifica che chieda di condannare gli imputati."
+        ]
+      }
+    ]
+  },
+  {
+    "Question": "Per quale motivo il Procuratore Generale ritiene la sentenza nulla limitatamente al capo di imputazione di cui all’art. 270 bis C.P nei confronti dell'imputato Francesco PAZIENZA tra i motivi del ricorso per Cassazione?",
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "faithfulness": 0.75,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il Procuratore Generale ritiene la sentenza nulla per l'imputato Francesco PAZIENZA.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il Procuratore Generale ritiene la sentenza nulla limitatamente al capo di imputazione di cui all’art. 270 bis C.P nei confronti dell'imputato Francesco PAZIENZA."
+        },
+        {
+          "statement": "La Corte di Assise di Appello di Bologna ha omesso di pronunciarsi su Francesco PAZIENZA per il reato di cui all'art. 270 bis C.P..",
+          "verdict": 0,
+          "reason": "Il contesto menziona che la Corte ha omesso di pronunciarsi nei confronti dell'imputato Francesco PAZIENZA e in ordine al reato contestato, senza specificare il nome della Corte come \"Corte di Assise di Appello di Bologna\"."
+        },
+        {
+          "statement": "Il reato di cui all'art. 270 bis C.P. era contestato a Francesco PAZIENZA in concorso con altri imputati.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona che il reato era contestato in concorso con altri imputati."
+        },
+        {
+          "statement": "L'omissione della Corte di Assise di Appello di Bologna costituisce una violazione dell'art. 475 n. 4 c.p.p. e dell'art. 524 pp. n. 3 c.p.p..",
+          "verdict": 0,
+          "reason": "Il contesto afferma che l'omissione costituisce vizio della sentenza secondo l'insegnamento della Corte di Cassazione, ma non menziona specificamente gli articoli 475 n. 4 c.p.p. e 524 pp. n. 3 c.p.p.."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il Procuratore Generale ritiene la sentenza nulla per l'imputato Francesco PAZIENZA.",
+          "verdict": 1,
+          "reason": "Il testo afferma che Il Procuratore Generale ritiene la sentenza nulla limitatamente al capo di imputazione di cui all'art. 270 bis C.P. nei confronti dell'imputato Francesco PAZIENZA."
+        },
+        {
+          "statement": "La Corte ha omesso di pronunciarsi nei confronti di Francesco PAZIENZA.",
+          "verdict": 1,
+          "reason": "Il testo afferma che la Corte di Assise di Appello di Bologna ha omesso di pronunciarsi nei confronti dell'imputato Francesco PAZIENZA e in ordine al reato di cui all'art. 270 bis C.P."
+        },
+        {
+          "statement": "L'omissione costituisce vizio della sentenza secondo la Corte di Cassazione.",
+          "verdict": 0,
+          "reason": "Il testo menziona che l'omissione costituisce una violazione dell'art. 475 n. 4 c.p.p. e dell'art. 524 pp. n. 3 c.p.p., ma non specifica che la Corte di Cassazione abbia espresso questo parere."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il Procuratore Generale ritiene la sentenza nulla per l'imputato Francesco PAZIENZA.",
+        "verdict": 0,
+        "reason": [
+          "Il testo non menziona il Procuratore Generale, ma solo che la sentenza è nulla a norma dell'art. 475 n. 4 c.p.p.",
+          "Il testo non menziona il Procuratore Generale che ritiene la sentenza nulla per l'imputato Francesco PAZIENZA.",
+          "Il testo non menziona il Procuratore Generale che ritiene la sentenza nulla per l'imputato Francesco PAZIENZA.",
+          "Il testo non menziona il Procuratore Generale o la sua opinione sulla sentenza.",
+          "Il testo non menziona il Procuratore Generale che ritiene la sentenza nulla per l'imputato Francesco PAZIENZA."
+        ]
+      },
+      {
+        "statement": "La Corte di Assise di Appello di Bologna ha omesso di pronunciarsi su Francesco PAZIENZA per il reato di cui all'art. 270 bis C.P..",
+        "verdict": 1,
+        "reason": "Il testo afferma che la Corte ha omesso di pronunciarsi nei confronti dell'imputato Francesco PAZIENZA ed in ordine al reato di cui all'art. 270 bis C.P."
+      },
+      {
+        "statement": "Il reato di cui all'art. 270 bis C.P. era contestato a Francesco PAZIENZA in concorso con altri imputati.",
+        "verdict": 1,
+        "reason": "Il testo menziona che il reato di cui all'art. 270 bis C.P. era contestato in concorso con Licio GELLI, Pietro MUSUMECI, Giuseppe BELMONTE, Paolo SIGNORELLI e Massimiliano FACHINI."
+      },
+      {
+        "statement": "L'omissione della Corte di Assise di Appello di Bologna costituisce una violazione dell'art. 475 n. 4 c.p.p. e dell'art. 524 pp. n. 3 c.p.p..",
+        "verdict": 1,
+        "reason": "Il testo afferma che la nullità della sentenza è a norma dell'art. 475 n. 4 c.p.p., in relazione all'art. 524 pp. n. 3 c.p.p."
+      }
+    ]
+  },
+  {
+    "Question": "Nei motivi del ricorso per cassazione perchè il procuratore generale ritiene la sentenza nulla per vizio di motivazione?",
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1": 0.6666666666666666,
+    "faithfulness": 1.0,
+    "tp": 2,
+    "fp": 1,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione nei motivi del ricorso per cassazione."
+        },
+        {
+          "statement": "Il Procuratore Generale ritiene che la sentenza non sia sufficientemente motivata.",
+          "verdict": 1,
+          "reason": "Il contesto spiega che la motivazione della sentenza emessa dal Giudice di Appello non risponde ai necessari requisiti di completezza, correttezza e logicità, il che implica che la sentenza non sia sufficientemente motivata."
+        },
+        {
+          "statement": "Il Procuratore Generale chiede l'annullamento della sentenza con rinvio.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona che il Procuratore Generale chieda l'annullamento della sentenza con rinvio, ma solo che ritiene la sentenza nulla per vizio di motivazione."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione a causa di carenza, contraddittorietà e illogicità della motivazione."
+        },
+        {
+          "statement": "La motivazione della sentenza emessa dal Giudice di Appello non risponde ai necessari requisiti di completezza, correttezza e logicità.",
+          "verdict": 1,
+          "reason": "Il contesto menziona carenza, contraddittorietà e illogicità della motivazione, il che implica che la motivazione non risponde ai necessari requisiti."
+        },
+        {
+          "statement": "Il Giudice ha condotto un esame sommario e superficiale delle circostanze e degli elementi di fatto acquisiti.",
+          "verdict": 0,
+          "reason": "Il contesto afferma che c'è stato un omesso esame di elementi decisivi, il che suggerisce che l'esame non è stato completo, ma non specifica che sia stato sommario e superficiale."
+        },
+        {
+          "statement": "Il Giudice non ha effettuato una valutazione globale degli indizi e del loro significato complessivo e logico.",
+          "verdict": 1,
+          "reason": "Il contesto menziona omesso esame di elementi decisivi e travisamento del fatto, il che implica che la valutazione degli indizi non è stata completa o corretta."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione.",
+        "verdict": 1,
+        "reason": "Il testo menziona \"Si deduce il vizio di motivazione\", il che implica che il Procuratore Generale ritiene la sentenza nulla per vizio di motivazione."
+      },
+      {
+        "statement": "Il Procuratore Generale ritiene che la sentenza non sia sufficientemente motivata.",
+        "verdict": 1,
+        "reason": "Il testo menziona \"carenza, contraddittorietà ed illogicità della motivazione medesima\", il che implica che la sentenza non sia sufficientemente motivata."
+      },
+      {
+        "statement": "Il Procuratore Generale chiede l'annullamento della sentenza con rinvio.",
+        "verdict": 1,
+        "reason": "Il testo menziona che si chiede alla Corte di Cassazione di annullare con rinvio la sentenza."
+      }
+    ]
+  },
+  {
+    "Question": "Cosa viene contestato nei motivi del ricorso per cassazione al giudice d'appello in merito alla ricostruzione dei fatti ed alle conclusioni raggiunte?",
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1": 0.4444444444444444,
+    "faithfulness": 0.0,
+    "tp": 2,
+    "fp": 1,
+    "fn": 4,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il giudice d'appello non valutò correttamente gli elementi di prova.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il giudice d'appello viene criticato per non aver riconosciuto la matrice ideologica e la natura eversiva dell'atto di violenza, il che implica una valutazione errata degli elementi di prova."
+        },
+        {
+          "statement": "Il giudice d'appello non trasse le conseguenze logiche dalle prove raccolte.",
+          "verdict": 1,
+          "reason": "Il contesto sostiene che il giudice d'appello rifiutò di cogliere il reale significato di un atto di violenza terroristica, inquadrando l'evento come un episodio di criminalità comune, il che suggerisce che non trasse le conseguenze logiche dalle prove."
+        },
+        {
+          "statement": "Il giudice d'appello non considerò l'ulteriore fallimento degli alibi indicati dagli imputati.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona il fallimento degli alibi indicati dagli imputati come un elemento considerato o trascurato dal giudice d'appello."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il giudice d'appello è stato criticato per non aver riconosciuto la matrice ideologica dell'atto di violenza.",
+          "verdict": 0,
+          "reason": "Il testo non menziona critiche specifiche riguardo al mancato riconoscimento della matrice ideologica dell'atto di violenza da parte del giudice d'appello."
+        },
+        {
+          "statement": "Il giudice d'appello non ha considerato l'impegno ideologico e l'operatività politica di Valerio FIORAVANTI e Francesca MAMBRO.",
+          "verdict": 0,
+          "reason": "Il testo non fornisce informazioni dirette sul fatto che il giudice d'appello abbia o meno considerato l'impegno ideologico e l'operatività politica di Valerio FIORAVANTI e Francesca MAMBRO."
+        },
+        {
+          "statement": "La presenza di Sergio PICCIAFUOCO alla stazione di Bologna è stata trascurata come elemento importante per comprendere gli eventi.",
+          "verdict": 0,
+          "reason": "Il testo non menziona Sergio PICCIAFUOCO o la sua presenza alla stazione di Bologna come elemento trascurato."
+        },
+        {
+          "statement": "Il giudice d'appello ha inquadrato l'atto di violenza come un episodio di criminalità comune e occasionale.",
+          "verdict": 0,
+          "reason": "Il testo non fornisce informazioni che indichino che il giudice d'appello abbia inquadrato l'atto di violenza in questo modo."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il giudice d'appello non valutò correttamente gli elementi di prova.",
+        "verdict": 0,
+        "reason": [
+          "Il testo non fornisce informazioni sulla valutazione degli elementi di prova da parte del giudice d'appello.",
+          "Il testo non fornisce informazioni sulla valutazione degli elementi di prova da parte del giudice d'appello.",
+          "Il testo afferma che il Giudice di appello doveva dedurre, con coerenza logica, l'assoluta idoneità della fonte e del mezzo di prova, il che implica che la valutazione degli elementi di prova sia stata effettuata correttamente."
+        ]
+      },
+      {
+        "statement": "Il giudice d'appello non trasse le conseguenze logiche dalle prove raccolte.",
+        "verdict": 0,
+        "reason": [
+          "Il testo non fornisce informazioni sulle conseguenze logiche tratte dalle prove raccolte dal giudice d'appello.",
+          "Il testo non fornisce informazioni sulle conseguenze logiche tratte dalle prove raccolte dal giudice d'appello.",
+          "Il testo afferma che il Giudice di appello doveva dedurre, con coerenza logica, l'assoluta idoneità della fonte e del mezzo di prova, il che implica che le conseguenze logiche siano state tratte."
+        ]
+      },
+      {
+        "statement": "Il giudice d'appello non considerò l'ulteriore fallimento degli alibi indicati dagli imputati.",
+        "verdict": 0,
+        "reason": [
+          "Il testo non menziona gli alibi indicati dagli imputati o il loro fallimento.",
+          "Il testo non menziona gli alibi indicati dagli imputati o il loro fallimento.",
+          "Il testo menziona l'ulteriore fallimento degli alibi indicati dagli imputati, il che implica che il Giudice di appello li abbia considerati."
+        ]
+      }
+    ]
+  },
+  {
+    "Question": "La violazione di quali articoli viene eccepita nelle motivazioni del ricorso per cassazione in riferimento al proscioglimento del Picciafuoco?",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "faithfulness": 1.0,
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "La violazione degli articoli 474 n° 4, 475 n° 3 e 524 n° 3 del Codice di Procedura Penale (C.p.p.) del 1980 viene eccepita.",
+          "verdict": 1,
+          "reason": "Il testo del contesto menziona espressamente la violazione degli articoli 474 n° 4, 475 n° 3 e 524 n° 3 del Codice di procedura penale."
+        },
+        {
+          "statement": "La mancanza e contraddittorietà di motivazione porterebbe a un travisamento del fatto.",
+          "verdict": 1,
+          "reason": "Il testo del contesto menziona la mancanza e contraddittorietà di motivazione come causa del travisamento del fatto."
+        },
+        {
+          "statement": "Sergio Picciafuoco è stato prosciolto per tutti i reati ascrittigli, compreso il reato di concorso in strage.",
+          "verdict": 1,
+          "reason": "Il testo del contesto menziona il proscioglimento di Sergio Picciafuoco e la non ritenuta responsabilità per tutti i reati ascrittigli, compreso il reato di concorso in strage."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Sergio Picciafuoco è stato prosciolto.",
+          "verdict": 1,
+          "reason": "Il testo menziona il proscioglimento di Sergio Picciafuoco come fatto in riferimento al quale viene eccepita la violazione degli articoli del Codice di Procedura Penale."
+        },
+        {
+          "statement": "Il ricorso per cassazione eccepisce la violazione di articoli del Codice di procedura penale.",
+          "verdict": 1,
+          "reason": "Il testo afferma che la violazione degli articoli 474 n° 4, 475 n° 3 e 524 n° 3 del Codice di Procedura Penale viene eccepita nelle motivazioni del ricorso per cassazione."
+        },
+        {
+          "statement": "Il ricorso per cassazione afferma la mancanza e contraddittorietà di motivazione nel proscioglimento di Sergio Picciafuoco.",
+          "verdict": 1,
+          "reason": "Il testo menziona che la mancanza e contraddittorietà di motivazione porterebbe a un travisamento del fatto in ordine alla non ritenuta responsabilità dell'imputato, il che implica che il ricorso per cassazione affermi proprio questo."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "La violazione degli articoli 474 n° 4, 475 n° 3 e 524 n° 3 del Codice di Procedura Penale (C.p.p.) del 1980 viene eccepita.",
+        "verdict": 1,
+        "reason": "Il testo del contesto menziona la violazione dell'art. 474 n° 4 e 475 n° 3 e 524 n° 3 C.p.p. (1980) per mancanza e contraddittorietà di motivazione."
+      },
+      {
+        "statement": "La mancanza e contraddittorietà di motivazione porterebbe a un travisamento del fatto.",
+        "verdict": 1,
+        "reason": "Il testo del contesto afferma che la mancanza e contraddittorietà di motivazione porterebbero a un travisamento del fatto in ordine alla non ritenuta responsabilità dell'imputato."
+      },
+      {
+        "statement": "Sergio Picciafuoco è stato prosciolto per tutti i reati ascrittigli, compreso il reato di concorso in strage.",
+        "verdict": 1,
+        "reason": "Il testo del contesto menziona il proscioglimento di Sergio Picciafuoco e la non ritenuta responsabilità per tutti i reati ascrittigli, compreso il reato di concorso in strage."
+      }
+    ]
+  },
+  {
+    "Question": "Per quale motivo è dichiarato inammissibile il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco nella sentenza del 1991?",
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "faithfulness": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile."
+        },
+        {
+          "statement": "Il ricorso è stato dichiarato inammissibile perché non sono stati indicati i motivi di impugnazione.",
+          "verdict": 1,
+          "reason": "Il contesto specifica che il ricorso è stato dichiarato inammissibile a causa della mancanza di indicazione dei motivi di impugnazione."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile."
+        },
+        {
+          "statement": "La sentenza del 1991 ha dichiarato il ricorso inammissibile perché non sono stati indicati i motivi di impugnazione.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona una sentenza del 1991, ma afferma che il ricorso è stato dichiarato inammissibile perché non sono stati indicati i motivi di impugnazione."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile.",
+        "verdict": 1,
+        "reason": "La sentenza menziona che il ricorso della Regione Emilia - Romagna nei confronti di Ballan Marco è stato dichiarato inammissibile."
+      },
+      {
+        "statement": "Il ricorso è stato dichiarato inammissibile perché non sono stati indicati i motivi di impugnazione.",
+        "verdict": 1,
+        "reason": "La sentenza specifica che il ricorso della Regione Emilia - Romagna è stato dichiarato inammissibile perché non sono stati indicati i motivi di impugnazione."
+      }
+    ]
+  },
+  {
+    "Question": "Chi presenta ricorso per cassazione per associazione terroristica ed eversiva?",
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "faithfulness": 1.0,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il procuratore generale presenta ricorso per cassazione per associazione terroristica ed eversiva.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il procuratore generale presenta il ricorso per cassazione per associazione terroristica ed eversiva."
+        },
+        {
+          "statement": "Gelli, Pazienza, Musumeci, Belmonte, Signorelli e Fachini sono stati oggetto di un ricorso per cassazione per associazione terroristica ed eversiva.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona Gelli, Pazienza, Musumeci, Belmonte, Signorelli e Fachini come oggetto di un ricorso per cassazione per associazione terroristica ed eversiva."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il ricorso per cassazione per associazione terroristica ed eversiva è presentato dal procuratore generale.",
+          "verdict": 1,
+          "reason": "Il testo del contesto afferma che il procuratore generale presenta il ricorso per cassazione."
+        },
+        {
+          "statement": "Il ricorso per cassazione per associazione terroristica ed eversiva è presentato dall'avvocatura di Stato.",
+          "verdict": 0,
+          "reason": "Il testo del contesto non menziona l'avvocatura di Stato come l'ente che presenta il ricorso per cassazione, ma menziona il procuratore generale."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il procuratore generale presenta ricorso per cassazione per associazione terroristica ed eversiva.",
+        "verdict": 1,
+        "reason": "Il procuratore generale ha proposto ricorso per il capo relativo all'imputazione di associazione eversiva, che è simile ad associazione terroristica ed eversiva."
+      },
+      {
+        "statement": "Gelli, Pazienza, Musumeci, Belmonte, Signorelli e Fachini sono stati oggetto di un ricorso per cassazione per associazione terroristica ed eversiva.",
+        "verdict": 1,
+        "reason": "Il testo menziona che il procuratore generale ha proposto ricorso per il capo relativo all'imputazione di associazione eversiva nei confronti di Gelli, Pazienza, Musumeci, Belmonte, Signorelli e Fachini, che è simile ad associazione terroristica ed eversiva."
+      }
+    ]
+  },
+  {
+    "Question": "Per quali motivi viene dichiarato inamissibile il ricorso proposto dalla provincia di Bologna",
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "faithfulness": 1.0,
+    "tp": 3,
+    "fp": 1,
+    "fn": 0,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Il ricorso proposto dalla Provincia di Bologna è stato dichiarato inammissibile.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il ricorso proposto dalla Provincia di Bologna viene dichiarato inammissibile."
+        },
+        {
+          "statement": "Il ricorso non è stato notificato secondo le procedure previste dalla legge.",
+          "verdict": 1,
+          "reason": "Il contesto menziona che il ricorso non risulta notificato a norma dell'art. 202, comma 2, c.p.p."
+        },
+        {
+          "statement": "La Provincia di Bologna non ha presentato i motivi del ricorso.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che vi è stata l'omessa presentazione dei motivi."
+        },
+        {
+          "statement": "Il Pubblico Ministero ha chiesto la dichiarazione di inammissibilità del ricorso per altri motivi.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona il Pubblico Ministero come colui che ha chiesto la dichiarazione di inammissibilità del ricorso."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "Il ricorso proposto dalla Provincia di Bologna viene dichiarato inammissibile.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che il ricorso proposto dalla Provincia di Bologna è stato dichiarato inammissibile per due motivi principali."
+        },
+        {
+          "statement": "Il ricorso non risulta notificato a norma dell'art. 202, comma 2, c.p.p.",
+          "verdict": 1,
+          "reason": "Il contesto menziona espressamente l'omessa notifica a norma dell'art. 202, comma 2, c.p.p. come uno dei motivi principali dell'inammissibilità."
+        },
+        {
+          "statement": "Vi è stata l'omessa presentazione dei motivi.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che la Provincia di Bologna non ha presentato i motivi del ricorso, confermando l'omessa presentazione dei motivi."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il ricorso proposto dalla Provincia di Bologna è stato dichiarato inammissibile.",
+        "verdict": 1,
+        "reason": "Il contesto afferma che il ricorso proposto dalla Provincia di Bologna deve essere dichiarato inammissibile a causa della mancata notifica a norma dell'art. 202, comma 2, c.p.p."
+      },
+      {
+        "statement": "Il ricorso non è stato notificato secondo le procedure previste dalla legge.",
+        "verdict": 1,
+        "reason": "Il contesto menziona che il ricorso proposto dalla Provincia di Bologna non risulta notificato a norma dell'art. 202, comma 2, c.p.p."
+      },
+      {
+        "statement": "La Provincia di Bologna non ha presentato i motivi del ricorso.",
+        "verdict": 1,
+        "reason": "Il contesto afferma che c'è stata l'omessa presentazione dei motivi, il che implica che la Provincia di Bologna non ha presentato i motivi del ricorso."
+      },
+      {
+        "statement": "Il Pubblico Ministero ha chiesto la dichiarazione di inammissibilità del ricorso per altri motivi.",
+        "verdict": 1,
+        "reason": "Il testo del contesto menziona che il Pubblico Ministero ha chiesto di dichiarare inammissibili i ricorsi per omessa presentazione dei motivi o per presentazione di motivi non contestuali non sottoscritti da avvocato cassazionista."
+      }
+    ]
+  },
+  {
+    "Question": "Per quale motivo viene accolto il ricorso del P.M. in ordine all'esclusione dell'aggravante di aver agito per finalità di eversione e terrorismo , contestata a Musumeci e Belmonte",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "pr_verdicts": {
+      "response_vs_reference": [],
+      "reference_vs_response": []
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Il ricorso del P.M. è stato accolto.",
+        "verdict": 0,
+        "reason": [
+          "Il contesto non fornisce informazioni sul ricorso del P.M. o sul suo esito."
+        ]
+      },
+      {
+        "statement": "La sentenza impugnata non ha compiuto una corretta indagine sulle reali finalità della condotta degli imputati.",
+        "verdict": 0,
+        "reason": [
+          "Il contesto non fornisce informazioni sulla sentenza impugnata o sulle indagini condotte."
+        ]
+      },
+      {
+        "statement": "La sentenza è stata annullata e il caso è stato rinviato per un nuovo esame.",
+        "verdict": 0,
+        "reason": [
+          "Il contesto non fornisce informazioni sulla sentenza o sul suo annullamento."
+        ]
+      }
+    ]
+  },
+  {
+    "Question": "come si pronuncia la Corte Suprema di Cassazione a Sezioni Unite Penali nei confronti di Pazienza Francesco",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 1.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "La Corte Suprema di Cassazione ha annullato la sentenza di condanna per calunnia nei confronti di Pazienza Francesco.",
+          "verdict": 0,
+          "reason": "Il testo menziona l'annullamento della sentenza impugnata per il reato previsto dall'art. 270 bis c.p., ma non specifica che si tratti di calunnia."
+        },
+        {
+          "statement": "La Corte ha ritenuto che la sentenza d'Appello fosse illogica e non avesse valutato correttamente prove e indizi.",
+          "verdict": 0,
+          "reason": "Il testo non fornisce informazioni sulla valutazione della Corte riguardo alla logica o alla valutazione delle prove della sentenza d'Appello."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione ha emesso una sentenza definitiva nel 1995.",
+          "verdict": 0,
+          "reason": "Il contesto non menziona l'anno in cui la Corte di Cassazione ha emesso la sentenza."
+        },
+        {
+          "statement": "La sentenza della Corte di Cassazione ha annullato la sentenza impugnata nei confronti di Pazienza Francesco.",
+          "verdict": 1,
+          "reason": "Il contesto afferma che la Corte Suprema di Cassazione a Sezioni Unite Penali ha annullato la sentenza impugnata nei confronti di Pazienza Francesco."
+        },
+        {
+          "statement": "L'annullamento della sentenza è relativo all'imputazione di cui al reato previsto dall'art. 270 bis c.p.",
+          "verdict": 0,
+          "reason": "Il contesto menziona che l'annullamento della sentenza è relativo al reato di calunnia, ma non specifica l'articolo di legge."
+        },
+        {
+          "statement": "La Corte di Cassazione ha stabilito che il fatto non sussiste.",
+          "verdict": 0,
+          "reason": "Il contesto afferma che la Corte ha ritenuto la sentenza d'Appello illogica e non ha valutato correttamente prove e indizi, ma non che il fatto non sussiste."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "La Corte Suprema di Cassazione ha annullato la sentenza di condanna per calunnia nei confronti di Pazienza Francesco.",
+        "verdict": 1,
+        "reason": "Il contesto menziona l'annullamento della sentenza impugnata, inclusa la parte relativa al reato di calunnia nei confronti di Gelli Licio e Pazienza Francesco."
+      },
+      {
+        "statement": "La Corte ha ritenuto che la sentenza d'Appello fosse illogica e non avesse valutato correttamente prove e indizi.",
+        "verdict": 1,
+        "reason": "Il testo afferma che la Corte ha sentenziato che la sentenza d'Appello è \"ILLOGICA\" e \"NON HA VALUTATO IN TERMINI CORRETTI PROVE E INDIZI\", il che corrisponde alla dichiarazione."
+      }
+    ]
+  },
+  {
+    "Question": "Cosa stabilisce la corte di cassazione, con sentenza definitiva nel 1995, relativamente al ricorso presentato dal Fachini e sulla base di quale articolo del codice di procedura penale?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.5,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Non posso rispondere.",
+          "verdict": 0,
+          "reason": "Il contesto non fornisce informazioni che possano confermare o negare la capacità di rispondere."
+        },
+        {
+          "statement": "Nessun contesto disponibile per questa fonte.",
+          "verdict": 0,
+          "reason": "Il contesto è effettivamente disponibile e fornisce informazioni su una sentenza della Corte di Cassazione."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione stabilisce che il ricorso presentato da Massimiliano Fachini è inammissibile.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per determinare se il ricorso presentato da Massimiliano Fachini è stato stabilito come inammissibile dalla Corte di Cassazione."
+        },
+        {
+          "statement": "L'assoluzione dell'imputato da tutte le imputazioni è stata pronunciata ai sensi del secondo comma dell'art. 530 del nuovo codice di procedura penale.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per determinare se l'assoluzione dell'imputato è stata pronunciata ai sensi del secondo comma dell'art. 530 del nuovo codice di procedura penale."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Non posso rispondere.",
+        "verdict": 0,
+        "reason": [
+          "The context is not available, so the statement cannot be directly inferred."
+        ]
+      },
+      {
+        "statement": "Nessun contesto disponibile per questa fonte.",
+        "verdict": 1,
+        "reason": "The context is explicitly stated as \"nan\", which means no context is available."
+      }
+    ]
+  },
+  {
+    "Question": "Come motiva la corte di cassazione nel 1995 l'inammissibilità del ricorso presentato dal Fachini?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.5,
+    "tp": 0,
+    "fp": 2,
+    "fn": 4,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Non posso rispondere.",
+          "verdict": 0,
+          "reason": "Il contesto fornito non contiene informazioni che possano confermare o negare la capacità di rispondere."
+        },
+        {
+          "statement": "Nessun contesto disponibile per questa fonte.",
+          "verdict": 0,
+          "reason": "Il contesto è stato effettivamente fornito e contiene informazioni relative alla decisione della Corte di Cassazione."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione ha motivato l'inammissibilità del ricorso presentato da Fachini.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare o negare questa affermazione."
+        },
+        {
+          "statement": "La Corte di Cassazione ha spiegato che un ricorso che contesta solo la motivazione senza incidere sul dispositivo di una sentenza non è ammissibile.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare o negare questa affermazione."
+        },
+        {
+          "statement": "La Corte di Cassazione ha sottolineato che la mancanza di prova, la prova insufficiente o contraddittoria non possono conferire certezza al convincimento di colpevolezza.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare o negare questa affermazione."
+        },
+        {
+          "statement": "La Corte di Cassazione ha affermato che la presunzione di innocenza è un'irrinunciabile conquista del nostro ordinamento.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare o negare questa affermazione."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Non posso rispondere.",
+        "verdict": 0,
+        "reason": [
+          "The context is not available, so the statement cannot be directly inferred."
+        ]
+      },
+      {
+        "statement": "Nessun contesto disponibile per questa fonte.",
+        "verdict": 1,
+        "reason": "The context is explicitly stated as \"nan\", which means no context is available."
+      }
+    ]
+  },
+  {
+    "Question": "Cosa stabilisce la corte di cassazione con sentenza definitiva relativamente ai ricorsi presentati nei confronti di Fachini e Rinani? E perchè?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.5,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Non posso rispondere.",
+          "verdict": 0,
+          "reason": "Il contesto fornisce informazioni specifiche sulla sentenza della Corte di Cassazione e sull'assoluzione di Massimiliano Fachini e Roberto Rinani, quindi c'è un contesto disponibile per rispondere."
+        },
+        {
+          "statement": "Nessun contesto disponibile per questa fonte.",
+          "verdict": 0,
+          "reason": "Il contesto fornisce informazioni specifiche sulla sentenza della Corte di Cassazione e sull'assoluzione di Massimiliano Fachini e Roberto Rinani, quindi c'è un contesto disponibile per questa fonte."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione ha stabilito che i ricorsi contro Massimiliano Fachini e Roberto Rinani sono inaccoglibili.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per determinare se la Corte di Cassazione abbia stabilito che i ricorsi contro Massimiliano Fachini e Roberto Rinani sono inaccoglibili."
+        },
+        {
+          "statement": "Massimiliano Fachini e Roberto Rinani sono stati assolti da tutti i reati ad essi ascritti.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per determinare se Massimiliano Fachini e Roberto Rinani sono stati assolti da tutti i reati ad essi ascritti."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Non posso rispondere.",
+        "verdict": 0,
+        "reason": [
+          "The context is not available, so the statement cannot be directly inferred."
+        ]
+      },
+      {
+        "statement": "Nessun contesto disponibile per questa fonte.",
+        "verdict": 1,
+        "reason": "The context is explicitly stated as \"nan\", which means no context is available."
+      }
+    ]
+  },
+  {
+    "Question": "La corte di cassazione nella sentenza definitiva condanna Fioravanti e Mambro al pagamento nei confronti delle Ferrovie dello Stato di quale cifra ed a che titolo?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.5,
+    "tp": 0,
+    "fp": 2,
+    "fn": 6,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Non posso rispondere.",
+          "verdict": 0,
+          "reason": "Il contesto non fornisce informazioni che possano confermare o negare la capacità di rispondere."
+        },
+        {
+          "statement": "Nessun contesto disponibile per questa fonte.",
+          "verdict": 0,
+          "reason": "Il contesto è effettivamente disponibile e fornisce informazioni su una sentenza della Corte di Cassazione."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione condanna Fioravanti Giuseppe Valerio e Mambro Francesca al rimborso delle spese.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        },
+        {
+          "statement": "La Presidenza del Consiglio dei Ministri e il Ministero dell'Interno ricevono nove milioni di lire.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        },
+        {
+          "statement": "Il Comune e la Provincia di Bologna ricevono sei milioni di lire.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        },
+        {
+          "statement": "La S.p.A. Ferrovie dello Stato riceve sei milioni di lire.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        },
+        {
+          "statement": "Paolo Bolognesi riceve tre milioni di lire.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        },
+        {
+          "statement": "Torquato Secci e Lidia Piccolini ricevono due milioni di lire ciascuno.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per confermare questa affermazione."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Non posso rispondere.",
+        "verdict": 0,
+        "reason": [
+          "The context is not available, so the statement cannot be directly inferred."
+        ]
+      },
+      {
+        "statement": "Nessun contesto disponibile per questa fonte.",
+        "verdict": 1,
+        "reason": "The context is explicitly stated as \"nan\", which means no context is available."
+      }
+    ]
+  },
+  {
+    "Question": "Come si esprime la Corte di Cassazione relativamente al rilievo presentato dal Giuliani nel ricorso? e perchè?",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "faithfulness": 0.5,
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "pr_verdicts": {
+      "response_vs_reference": [
+        {
+          "statement": "Non posso rispondere.",
+          "verdict": 0,
+          "reason": "Il contesto non fornisce informazioni che possano confermare o negare la capacità di rispondere."
+        },
+        {
+          "statement": "Nessun contesto disponibile per questa fonte.",
+          "verdict": 0,
+          "reason": "Il contesto è effettivamente disponibile e fornisce informazioni su una sentenza e un ricorso."
+        }
+      ],
+      "reference_vs_response": [
+        {
+          "statement": "La Corte di Cassazione ha espresso che il ricorso presentato da Egidio Giuliani non è meritevole di accoglimento.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per questa fonte, quindi non è possibile determinare se la Corte di Cassazione abbia espresso tale opinione."
+        },
+        {
+          "statement": "L'imputato ha dedotto il difetto di motivazione dell'impugnata sentenza.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per questa fonte, quindi non è possibile determinare se l'imputato abbia dedotto il difetto di motivazione."
+        },
+        {
+          "statement": "La Corte di Cassazione non condivide il rilievo dell'imputato.",
+          "verdict": 0,
+          "reason": "Nessun contesto disponibile per questa fonte, quindi non è possibile determinare se la Corte di Cassazione condivida o meno il rilievo dell'imputato."
+        }
+      ]
+    },
+    "faith_verdicts": [
+      {
+        "statement": "Non posso rispondere.",
+        "verdict": 0,
+        "reason": [
+          "The context is not available, so the statement cannot be directly inferred."
+        ]
+      },
+      {
+        "statement": "Nessun contesto disponibile per questa fonte.",
+        "verdict": 1,
+        "reason": "The context is explicitly stated as \"nan\", which means no context is available."
+      }
+    ]
+  }
+]

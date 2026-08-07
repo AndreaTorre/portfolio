@@ -1,2 +1,19 @@
-The aim of the project is to develop a deep learning algorithm to classify if a spectrogram belongs to a bike, a pedestrian or a combination of these two. 
-the results can be used by autonomous cars or public transportation to detect the presence of people in the streets and minimize road accidents.
+Deep learning pipeline for five-class radar micro-Doppler classification, comparing CNN, CNN–LSTM,
+CNN–BiLSTM and CNN–Conv1D–LSTM architectures with targeted time-warping augmentation.
+
+## The work
+
+This project investigates pedestrian and cyclist classification from radar micro-Doppler spectrograms.
+The task includes five balanced classes: pedestrian, cyclist, pedestrian plus cyclist, two pedestrians and
+two cyclists.
+The original 144 × 400 spectrograms are resized to 72 × 200 to reduce memory requirements and training
+time. Several deep learning architectures are compared, from convolutional baselines to hybrid models
+combining two-dimensional convolutions, one-dimensional temporal filtering and LSTM layers.
+Targeted time-warping augmentation is applied to the most difficult double-object classes. The selected
+CNN–Conv1D–LSTM model achieves 86.22% test accuracy and approximately 0.862 macro F1 on a
+balanced test set of 5,000 samples.
+
+## Technologies
+
+Python, TensorFlow, Keras, NumPy, scikit-learn, Matplotlib.
+

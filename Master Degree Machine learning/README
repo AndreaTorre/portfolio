@@ -1,1 +1,39 @@
-The project has been carried out using the software KNIME. We developed and tested multiple models to identify one capable of predicting whether a teenager, based on their profile, is likely to develop alcohol abuse or engage in excessive consumption.
+# Students' Alcohol Consumption Prediction
+
+Machine Learning Project — MSc in Data Science  
+University of Milano-Bicocca
+
+## Overview
+
+Machine learning project aimed at predicting **weekday alcohol consumption among Portuguese secondary-school students** from demographic, academic, family, social and behavioural characteristics.
+
+The task was formulated as a **multiclass classification problem** using the `Dalc` variable, representing five levels of weekday alcohol consumption.
+
+The complete pipeline was developed in **KNIME**, including data preprocessing, feature selection, class balancing, model training, comparison and deployment. An **R Snippet** was integrated into the KNIME workflow to analyse associations between categorical variables through a normalized Chi-squared statistic.
+
+## Methods
+
+`Data Preprocessing` · `Feature Selection` · `Correlation Analysis` · `Normalized Chi-Squared` · `Data Normalization` · `Stratified Sampling` · `SMOTE` · `Multiclass Classification` · `Class Imbalance Handling` · `Confusion Matrix` · `Accuracy` · `Cohen's Kappa` · `Model Deployment`
+
+## Models
+
+`Decision Tree` · `J48 / C4.5` · `Random Forest` · `Gradient Boosted Trees` · `Bagging` · `Naive Bayes` · `Bayesian Networks` · `TANB` · `BNC` · `NBTree` · `Multilayer Perceptron`
+
+## Results
+
+**Random Forest** was selected as the final classifier.
+
+- Best model during model comparison: **Random Forest — 83% accuracy**
+- Final deployment accuracy: **95.02%**
+- Cohen's Kappa: **0.891**
+- Final evaluation: **992 correctly classified observations out of 1,044**
+
+The final Random Forest used **50 decision trees**.
+
+## Technologies
+
+`KNIME Analytics Platform` · `R` · `R Snippet Node` · `Machine Learning` · `SMOTE` · `Random Forest` · `Data Visualization`
+
+## Repository
+
+This repository presents the project as part of my academic portfolio and includes the project report and the **KNIME workflow** used to develop the complete machine learning pipeline.

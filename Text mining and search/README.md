@@ -37,3 +37,6 @@ There are html files regarding BERTopic and LDA, with their respective interacti
 - `FORCE_REGENERATE_CLASSIFIERS`
 - `FORCE_REGENERATE_TOPICS`
 
+## Technologies and methods
+Python, Pandas, NumPy, scikit-learn, Sentence Transformers, BERTino, TF–IDF, logistic regression, Random
+Forest, SGD, UMAP, Gensim, LSA, LDA, HDP, BERTopic, HDBSCAN, pyLDAvis and NLTK.

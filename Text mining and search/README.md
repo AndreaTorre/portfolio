@@ -1,5 +1,22 @@
 # Text Mining: Italian Job Advertisements Analysis
 
+This project analyses Italian online job advertisements through two complementary tasks: predicting
+the professional title from the job description and discovering recurrent topics without supervision.
+
+After exact deduplication, the dataset contains 28,130 descriptions and 615 job classes. The pi-
+peline compares sparse TF–IDF features with 768-dimensional contextual embeddings from multi-
+sentence-BERTino. Logistic regression, Random Forest and SGD classifiers are evaluated for both
+
+representations, with explicit removal of job-title strings to reduce label leakage.
+For topic modeling, the project compares LSA, LDA, HDP and BERTopic using topic coherence,
+
+diversity and log-perplexity when applicable. TF–IDF with Random Forest obtains the best leakage-
+controlled classification accuracy, while LDA offers the most balanced combination of topic coherence
+
+and diversity.
+
+
+
 ## Execution Instructions
 
 1. Ensure all required packages are installed:

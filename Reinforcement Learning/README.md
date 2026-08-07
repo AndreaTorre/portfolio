@@ -35,6 +35,11 @@ A report of the paper and both the orginal and new experiments can be consulted.
 - TD3: [Fujimoto et al., 2018](https://arxiv.org/abs/1802.09477)
 - LSTD: [Bradtke & Barto, 1996](https://ieeexplore.ieee.org/document/548471)
 
+**Technologies and methods**
+
+Python, NumPy, Matplotlib, Gymnasium, tabular reinforcement learning, TD(0), LSTD, SARSA, Q-learning,
+semi-gradient methods, tile coding, TD3, confidence intervals and multi-seed evaluation.
+
 
 This project has been released un MIT licence. See `LICENSE` for more details.
 

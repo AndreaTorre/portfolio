@@ -1,16 +1,23 @@
 # Discount Factor as a Regularizer in Reinforcement Learning
 
-## REPLICA ESERCIZI ESERCITAZIONI
+## Code replication
 
-WindyGridworld_code_with_paper_extension.ipynb: in questo notebook è presente il codice dell'esercizio Windy Gridworld presente nell'esercitazione 4 svolta a lezione. Dopo i codici già implementati nel corso, è stata aggiunta una parte che implementa l'idea del paper.
+This project reproduces and extends “Discount Factor as a Regularizer in Reinforcement Learning”
+by Amit, Meir and Ciosek. The paper distinguishes the evaluation discount, which defines the task
+objective, from the guidance discount used during learning. Reducing the guidance discount can
+be rewritten as a quadratic activation regularizer on the estimated value function, with an explicit
+relationship to L2 regularization under linear or tabular representations.
+The project reviews and partially reproduces the paper’s tabular and continuous-control experiments,
+focusing on limited-data regimes, non-uniform state distributions and mixing properties. It also
+applies the same idea to Windy Gridworld and MountainCar. The Windy Gridworld extension
+compares a baseline, discount-based regularization and explicit quadratic shrinkage, measuring
+learning returns, greedy performance, value magnitude and action-value variance. The MountainCar
+extension uses semi-gradient SARSA with tile coding and Proposition-1 reward and learning-rate
+adjustments.
 
-MountainCar_with_paper_extension.ipynb: in questo notebook è presente il codice dell esercizio Mountain Car presentato nell'esercitazione 7 svolta a lezione. 
+A report of the paper and both the orginal and new experiments can be consulted.
 
-## REPLICA PAPER: 
-Nella cartella Discount_as_Regularizer-master sono presenti file e script da noi creato 'Discount_as_Regularizer_ALL_IN_ONE_OR.ipynb' per riprodurre il codice fornito dagli autori.
-
-
-**Paper originale:**
+**Original paper :**
 ```bibtex
 @inproceedings{amit2020discount,
   title={Discount Factor as a Regularizer in Reinforcement Learning},
@@ -22,13 +29,13 @@ Nella cartella Discount_as_Regularizer-master sono presenti file e script da noi
 }
 ```
 
-**Codice originale:** [GitHub - Discount_as_Regularizer](https://github.com/...)
+**Original code:** [GitHub - Discount_as_Regularizer](https://github.com/...)
 
-**Algoritmi utilizzati:**
+**Algoritms used:**
 - TD3: [Fujimoto et al., 2018](https://arxiv.org/abs/1802.09477)
 - LSTD: [Bradtke & Barto, 1996](https://ieeexplore.ieee.org/document/548471)
 
 
-Questo progetto è rilasciato sotto licenza MIT. Vedi `LICENSE` per dettagli.
+This project has been released un MIT licence. See `LICENSE` for more details.
 
-Il codice originale del paper è di proprietà degli autori (Amit et al., 2020).
+The original code is property of the authors (Amit et al., 2020).
